@@ -15,7 +15,6 @@ int main() {
             n = lseek(fd,0,SEEK_END);
             if(!n) {
 		            unlink(dir->d_name);
-								printf("",d_name);
             }
         }
     }
